@@ -1,0 +1,227 @@
+h2 {
+	color: orange;
+	font-family: 'Texturina', serif;
+}
+/* header */
+
+.title {
+	color: red;	
+	font-weight: 400; /*bold te3 ketba*/
+	font-family: 'Texturina', serif; /*ta3 font li jebnaha men google fonts*/
+}
+/* class */
+
+#begin {
+	color: green;
+	font-family: 'Texturina', serif;
+}
+/* id */
+
+.contact-us {
+	color: blue;
+	font-family: 'Texturina', serif;
+}
+/* class */
+
+#contact-us-two {
+	color: yellow;
+	font-family: 'Texturina', serif;
+}
+/* id */
+
+/* andek style="" > #service > .contact-us > h2 =====> inline styling > id > class > header */
+ /*-----------------------------------------------------------*/
+ /*-----------------------super selectors---------------------*/
+/*li:last-child {
+	color: purple;
+}*/
+/* kayen only-child,last-child,first-child,nth-child(3) */
+
+h1:hover {
+	color: red;
+	font-family: 'Texturina', serif;
+}
+/* ki thot 3liha curseur tlewn bl red */
+
+/*#YouTube:link {
+	color: blue;
+}
+
+#YouTube:visited {
+	color: red;
+}*/
+/* link w visited te3 lien 9bel w ba3d la tdkhoul fih*/
+ /*-----------------------------------------------------------*/
+
+ h2 + a {
+ 	color: rgb(255, 13, 0);
+ 	font-family: 'Texturina', serif;
+ }
+/* that's mean every a after an h2*/
+/* color picker pour les couleurs */
+
+textarea ~ button{
+	color: blue;
+	font-family: 'Texturina', serif;
+}
+/* that's mean every button after a textarea but they must be with the same parent */
+
+ul > li {
+	color: rgb(204, 128, 22);
+	font-family: 'Texturina', serif;
+}
+/* ma3netha ay li fils direct ta3 ul tetlwn b orange */
+
+ul li {
+	color: #32a852; 
+	font-family: 'Texturina', serif;
+}
+/* ma3netha ay li fils w sayi ta3 ul tetlwn b green */
+
+
+/*img[src^="img/"] {
+	border: 10px solid black;
+}
+*/
+/* selectors :: ki tdir ^ ma3netha tappliki 3la ga3 les images li path ta3hom ybda b src*/
+/* w ki tdir $ ma3netha path ykmel b src */
+/* ki tkoun * ma3netha ay path fih li kayna f src */
+
+
+h1[class~=hahahaha] {
+	background: green;
+	font-family: 'Texturina', serif;
+}
+
+/* 9rib kifkif hna brk andek t7aded class w tgoul cha fiha b ~*/
+
+/*h2[class=subtitle] {
+	color: blue;
+}
+exemple berk hada
+*/
+
+body {
+	background: rgb(87, 87, 92);
+	text-transform: capitalize; 
+	/*text-align: center;*/
+	/*text-align: justify;*/
+	/*font-size: 40px;*/ 
+	/*font-size: 1.25em; */
+	/*font-family: sans-serif;*/
+	/*font-family: "Times New Roman", serif;*/
+	font-family: 'Texturina', serif;
+}
+
+/* background-repeat: repeat; */
+/* background: rgba(204, 229, 255, 0,4); (0,4 transparency)*/
+/* text-transform: capitalize, uppercase ... */
+
+
+.italics {
+	font-style: italic;   /*oblique*/
+}
+
+#img-un {
+	height: 200px;
+	width: 70vw;
+		 /*size style       color */
+	border: 2px solid rgb(154, 174, 200);
+	/*padding: 10px;*/
+	/*padding-right: 10px;*/
+	/*padding: top right bottom left */
+	/*padding: top cotés drgauche bottom*/
+	/*padding: cotés foug ta7t   cotés drgauche*/
+	/*margin: 50px;*/
+	/*float: right;*/
+	border-radius: 10px;
+	/*border-radius: mlfoug gauche, mlfoug droite, mtaht droite, mtaht gauche*/ 
+	box-shadow: 10px 10px 10px pink;
+	/*box-shadow: ombre-horiz, ombre-vertcl, rayon de lombre, couleur, ombre interieur*/ 
+}
+
+#img-deux {
+	height: 200px;
+	width: 60vw; /*width: 60%;*/
+
+}
+
+.c1	{
+	display: inline;
+	border: 1px solid blue;
+	height: 50px;
+	width: 50px;
+	}
+
+.c2	{
+	display: block;
+	border: 1px solid blue;
+	height: 50px;
+	width: 200px;
+	
+}
+
+.c3	{
+	display: inline-block;
+	border: 1px solid blue;
+	height: 50px;
+	width: 50px;
+
+}
+/*andek display: none; hadi tgla3lek li dertlha display*/
+/*block ? et inline ? inline-block*/
+
+
+.p1 {
+	background-color: green;
+	position: static;
+}
+
+.p2 {
+	background-color: deeppink;
+	position: relative;
+	left: 50px;
+	height: 400px;
+	width: 400px;
+}
+
+.p3 {
+	background-color: blue;
+	position: relative;
+	left: -50px;
+}
+
+.p4 {
+	background-color: red;
+	position: absolute;
+	left: 150px;
+}
+
+.pos {
+	background-color: gray;
+	padding: 20px;
+	border: 5px solid black;
+	position: fixed;
+}
+/*fixed hadi ma fhemthach */
+
+.po1 {
+	background-color: pink;
+	position: absolute;
+	left: 50px;
+	height: 40px;
+	width: 40px;
+	z-index: 2;
+}
+
+.po2 {
+	background-color: blue;
+	position: fixed;
+	left: 60px;
+	height: 40px;
+	width: 40px;
+	z-index: 1;
+}
+
+/*z-index ??*/
+
